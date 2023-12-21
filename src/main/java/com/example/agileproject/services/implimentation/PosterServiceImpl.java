@@ -1,4 +1,4 @@
-package com.example.agileproject.service.implimentation;
+package com.example.agileproject.services.implimentation;
 
 import com.example.agileproject.dao.PosterRepository;
 import com.example.agileproject.entities.Poster;
