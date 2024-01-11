@@ -53,8 +53,8 @@ public class RegistrationController {
             Poster newPoster = new Poster();
             newPoster.setTitlePoster(registrationToValidate.getTitre());  // Assuming name is used for titlePoster
             newPoster.setDescriptionPoster(registrationToValidate.getDescription());  // Assuming mail is used for descriptionPoster
-            newPoster.setContentPoster(registrationToValidate.getMail()+registrationToValidate.getName()+registrationToValidate.getName()
-            + " Country :"+registrationToValidate.getCountry()
+            newPoster.setContentPoster("Mail :" +registrationToValidate.getMail()+"\n Name : "+registrationToValidate.getName()
+            + " \n Content  :\n"+registrationToValidate.getCountry()
             );  // Assuming description is used for contentPoster
 
             // Save the new Poster
